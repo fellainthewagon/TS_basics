@@ -7,7 +7,7 @@ function add(n1, n2, showResult) {
         return n1 + n2;
     }
 }
-var num1 = 5;
-var num2 = 10;
-var printResult = true;
+const num1 = 5;
+const num2 = 10;
+const printResult = true;
 add(num1, num2, printResult);

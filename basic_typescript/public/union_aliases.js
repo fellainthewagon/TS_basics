@@ -4,7 +4,7 @@
  *
  */
 function combine(x, y, resultChanger) {
-    var res;
+    let res;
     if ((typeof x === "number" && typeof y === "number") ||
         resultChanger === "num") {
         res = +x + +y;

@@ -5,7 +5,7 @@ var Skills;
     Skills[Skills["MIDDLE"] = 77] = "MIDDLE";
     Skills["HIGHT"] = "true";
 })(Skills || (Skills = {}));
-var person = {
+const person = {
     name: "Fella",
     age: 30,
     hasCar: false,
@@ -13,6 +13,6 @@ var person = {
     role: [99, "driver"],
     skills: Skills.LOW,
 };
-var boom;
+let boom;
 boom = ["sport", false];
 console.log(person);
